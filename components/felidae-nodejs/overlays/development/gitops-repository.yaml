@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: felidae-nodejs-gitops-repository
+spec:
+  url: https://github.com/rhtap-test-organization-jk/felidae-nodejs-gitops
